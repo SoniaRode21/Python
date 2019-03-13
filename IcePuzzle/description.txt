@@ -1,0 +1,19 @@
+For the graph1.txt, the output is the shortest possible way to reach the exit from all the nodes.
+If two or more ways are present, the shortest way is chosen for exit.
+
+For test case 1 :
+    Test one checks if the exit node is conneceted to the graph, i.e reachable by
+    any of the nodes present on the graph.
+    for 5 5 5, the exit row will be 5 which is not connected to the graph.Thus there
+    is no exit path from any of the nodes.
+
+For test case 2 :
+    In the test only rocks are present, in this case you can not move forward,
+    thus  exit is not  possible.
+
+For test case 3 :
+    In the third case, a rock is present in front of the exit so you can not exit.
+    i.e the exit node is not reachable through the graph
+
+These test cases check the code for edge cases which might break the code.
+
